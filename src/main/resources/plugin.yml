@@ -1,0 +1,5 @@
+name: GhostFrames
+version: '1.0'
+main: org.Mist.ghostFrames.GhostFrames
+api-version: '1.18'
+folia-supported: true
