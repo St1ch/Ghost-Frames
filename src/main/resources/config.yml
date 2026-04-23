@@ -1,0 +1,24 @@
+language: en
+
+gui:
+  enabled: true
+
+click-through:
+  enabled: true
+
+sounds:
+  enabled: true
+
+audit-log:
+  enabled: true
+
+item-protection:
+  enabled: true
+
+mass-edit:
+  max-radius: 32
+
+containers:
+  whitelist: []
+  blacklist:
+    - ENDER_CHEST

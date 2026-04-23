@@ -1,0 +1,74 @@
+<svg width="1600" height="560" viewBox="0 0 1600 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="40" x2="1520" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1726"/>
+      <stop offset="1" stop-color="#12243A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="272" y1="140" x2="1160" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8FF7D2"/>
+      <stop offset="1" stop-color="#6AD3FF"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#E8F0FF"/>
+      <stop offset="1" stop-color="#A6C7F5"/>
+    </linearGradient>
+    <filter id="blur" x="0" y="0" width="1600" height="560" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="44"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="560" rx="28" fill="url(#bg)"/>
+
+  <g opacity="0.55" filter="url(#blur)">
+    <circle cx="1350" cy="150" r="110" fill="#68E0FF"/>
+    <circle cx="1220" cy="390" r="130" fill="#8BFFCC"/>
+    <circle cx="250" cy="120" r="90" fill="#77B7FF"/>
+  </g>
+
+  <path d="M80 470C310 360 470 510 680 428C880 350 1040 214 1288 250C1392 265 1478 311 1520 338V560H80V470Z" fill="#0A1220" opacity="0.72"/>
+
+  <g opacity="0.18">
+    <path d="M1060 96L1456 96" stroke="#D7F8FF" stroke-width="2"/>
+    <path d="M1060 144L1504 144" stroke="#D7F8FF" stroke-width="2"/>
+    <path d="M1060 192L1468 192" stroke="#D7F8FF" stroke-width="2"/>
+    <path d="M1060 240L1520 240" stroke="#D7F8FF" stroke-width="2"/>
+    <path d="M1060 288L1488 288" stroke="#D7F8FF" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(1100 126)">
+    <rect x="0" y="0" width="180" height="180" rx="24" fill="#FFFFFF" fill-opacity="0.06" stroke="url(#accent)" stroke-width="3"/>
+    <rect x="24" y="24" width="132" height="132" rx="14" fill="none" stroke="url(#frame)" stroke-width="10"/>
+    <rect x="46" y="46" width="88" height="88" rx="10" fill="#D9ECFF" fill-opacity="0.08" stroke="#85FFF1" stroke-opacity="0.7" stroke-width="2.5" stroke-dasharray="10 8"/>
+    <circle cx="90" cy="90" r="26" fill="url(#accent)"/>
+    <path d="M90 60V120" stroke="#0A1A2F" stroke-width="8" stroke-linecap="round"/>
+    <path d="M60 90H120" stroke="#0A1A2F" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(118 110)">
+    <rect x="0" y="170" width="164" height="164" rx="22" fill="#FFFFFF" fill-opacity="0.04" stroke="#8DEDDD" stroke-opacity="0.5" stroke-width="2"/>
+    <rect x="22" y="192" width="120" height="120" rx="14" fill="none" stroke="#E6F0FF" stroke-width="9"/>
+    <rect x="44" y="214" width="76" height="76" rx="10" fill="#D8F4FF" fill-opacity="0.1" stroke="#79E2FF" stroke-width="2" stroke-dasharray="9 7"/>
+    <circle cx="82" cy="252" r="22" fill="url(#accent)"/>
+    <path d="M82 226V278" stroke="#081320" stroke-width="7" stroke-linecap="round"/>
+    <path d="M56 252H108" stroke="#081320" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <text x="350" y="200" fill="#F6FBFF" font-size="76" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Ghost Frames</text>
+  <text x="352" y="256" fill="#8FF7D2" font-size="26" font-weight="600" font-family="Segoe UI, Arial, sans-serif">Invisible item frames, click-through containers, protected displays.</text>
+  <text x="352" y="320" fill="#C7D7EA" font-size="24" font-weight="400" font-family="Segoe UI, Arial, sans-serif">Built for Bukkit, Spigot, Paper and Folia</text>
+
+  <g transform="translate(352 366)">
+    <rect width="172" height="46" rx="23" fill="#8FF7D2" fill-opacity="0.12" stroke="#8FF7D2" stroke-opacity="0.55"/>
+    <text x="25" y="30" fill="#DFFFF7" font-size="22" font-weight="600" font-family="Segoe UI, Arial, sans-serif">4 frame modes</text>
+  </g>
+
+  <g transform="translate(540 366)">
+    <rect width="206" height="46" rx="23" fill="#6AD3FF" fill-opacity="0.12" stroke="#6AD3FF" stroke-opacity="0.55"/>
+    <text x="24" y="30" fill="#E6F7FF" font-size="22" font-weight="600" font-family="Segoe UI, Arial, sans-serif">Persistent settings</text>
+  </g>
+
+  <g transform="translate(764 366)">
+    <rect width="182" height="46" rx="23" fill="#FFFFFF" fill-opacity="0.06" stroke="#E8F0FF" stroke-opacity="0.35"/>
+    <text x="24" y="30" fill="#F3F9FF" font-size="22" font-weight="600" font-family="Segoe UI, Arial, sans-serif">Admin tools</text>
+  </g>
+</svg>

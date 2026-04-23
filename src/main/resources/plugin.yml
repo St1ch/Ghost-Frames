@@ -1,5 +1,25 @@
 name: GhostFrames
-version: '1.0'
+version: '${version}'
 main: org.Mist.ghostFrames.GhostFrames
 api-version: '1.18'
 folia-supported: true
+softdepend:
+  - WorldGuard
+  - GriefPrevention
+  - Lands
+  - Residence
+commands:
+  ghostframes:
+    aliases: [gf]
+    description: Manage GhostFrames settings and scans
+    usage: /ghostframes
+permissions:
+  ghostframes.use:
+    description: Use the GhostFrames GUI and click-through frames
+    default: true
+  ghostframes.admin:
+    description: Reload config and run mass frame actions
+    default: op
+  ghostframes.bypass:
+    description: Bypass protected frame restrictions
+    default: op
