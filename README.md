@@ -1,4 +1,4 @@
-# ![Ghost Frames Cover](.github/assets/ghostframes_cover.svg)
+# Ghost Frames
 
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.18--1.21.x-67D08B?style=for-the-badge)
 ![Platforms](https://img.shields.io/badge/Platforms-Bukkit%20%7C%20Spigot%20%7C%20Paper%20%7C%20Folia-6AD3FF?style=for-the-badge)
@@ -6,8 +6,6 @@
 ![Modes](https://img.shields.io/badge/Frame%20Modes-4-8FF7D2?style=for-the-badge)
 ![Config](https://img.shields.io/badge/Config-YAML-E6F0FF?style=for-the-badge&color=3A4D66)
 ![License](https://img.shields.io/badge/License-MIT-C7A4FF?style=for-the-badge)
-
-## Ghost Frames
 
 Ghost Frames turns item frames into configurable ghost displays. Players can hide frames, safely click through them into containers, lock rotation, protect displayed items, and manage everything through a compact in-game GUI or admin tools.
 
